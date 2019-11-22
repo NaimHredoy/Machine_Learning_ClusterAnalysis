@@ -39,7 +39,9 @@ plot(hclst.c, hang = -1)
 #clustering membership and means
 
 member.c<-cutree(hclst.c, 4)
-rect.hclust(hclst.c, k=4, border = "red")
+rect.hclust(hclst.c, 
+            k=4, 
+            border = "red")
 member.c
 table(member.c)
 aggregate(scale,
@@ -55,7 +57,9 @@ plot(hclst.w, hang = -1)
 #clustering membership and means
 
 member.w<-cutree(hclst.w, 4)
-rect.hclust(hclst.w, k=4, border = "red")
+rect.hclust(hclst.w, 
+            k=4, 
+            border = "red")
 member.w
 table(member.w)
 aggregate(scale,
