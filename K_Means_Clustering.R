@@ -32,7 +32,7 @@ kmeans<-kmeans(scale,3)
 #attribute of the cluster.
 
 kmeans$cluster
-kmeans$size      #other attribute are also available like iter, betweenss etc.
+kmeans$size      # Other attribute are also available like iter, betweenss etc.
 kmeans$centers
 
 #checking data correspond to their cluster
